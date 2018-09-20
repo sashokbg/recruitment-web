@@ -1,0 +1,16 @@
+<project>
+    <artifactId>library</artifactId>
+    <groupId>fr.d2factory</groupId>
+    <modelVersion>4.0.0</modelVersion>
+    <name>Maven Default Project</name>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
