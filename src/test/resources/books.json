@@ -1,0 +1,36 @@
+{
+  "availableBooks": [
+    {
+      "book_title": "Harry Potter",
+      "book_author": "J.K. Rowling",
+      "isbn": {
+        "code": 46578964513,
+        "checkDigit": 58
+      }
+    },
+    {
+      "book_title": "Around the world in 80 days",
+      "book_author": "Jules Verne",
+      "isbn": {
+        "code": 3326456467846,
+        "checkDigit": 74
+      }
+    },
+    {
+      "book_title": "Catch 22",
+      "book_author": "Joseph Heller",
+      "isbn": {
+        "code": 968787565445,
+        "checkDigit": 98
+      }
+    },
+    {
+      "book_title": "La peau de chagrin",
+      "book_author": "Balzac",
+      "isbn": {
+        "code": 465789453149,
+        "checkDigit": 33
+      }
+    }
+  ]
+}
