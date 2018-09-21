@@ -15,10 +15,9 @@ of a library as detailed in the Business Logic bellow.
     The library is attended by two groups of people - Student members and Resident members.
     Only Members can borrow books at the library.
     
-    Students that in their first year are allowed to 
-    borrow books for free for a period of 15 days.
-    After that period they are charged 10 cents (0.10 eu) for each day
-    they keep a book.
+    Students are charged 10 cents (0.10 eu) for the first 30 days
+    Exception to that rule are students who are in their first year,
+    who have 15 days of free period.
     
     If a student, regardless of what year they are in, keeps a book
     for more than 30 days they are obliged to pay 
