@@ -12,8 +12,8 @@ public class LibraryTest {
     public void setup(){
         //TODO instantiate the library and the repository
 
-        //TODO add some test books (to help you a file called books.json is available in src/test/resources)
-
+        //TODO add some test books
+        //TODO to help you a file called books.json is available in src/test/resources
     }
 
     @Test
@@ -22,7 +22,7 @@ public class LibraryTest {
     }
 
     @Test
-    public void max_borrow_time_is_1_months_for_students(){
+    public void max_borrow_time_is_1_month_for_students(){
 
     }
 

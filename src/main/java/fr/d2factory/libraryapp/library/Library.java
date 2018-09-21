@@ -3,6 +3,11 @@ package fr.d2factory.libraryapp.library;
 import fr.d2factory.libraryapp.book.Book;
 import fr.d2factory.libraryapp.member.Member;
 
+/**
+ * The library class is in charge of stocking the books and managing the return delays and members
+ *
+ * The books are available via the {@link fr.d2factory.libraryapp.book.BookRepository}
+ */
 public interface Library {
 
     /**
