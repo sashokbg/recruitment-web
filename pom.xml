@@ -1,8 +1,8 @@
 <project>
-    <artifactId>library</artifactId>
+    <artifactId>townsville-library</artifactId>
     <groupId>fr.d2factory</groupId>
     <modelVersion>4.0.0</modelVersion>
-    <name>Maven Default Project</name>
+    <name>Townsville Library</name>
     <version>1.0.0</version>
 
     <properties>
