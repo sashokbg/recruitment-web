@@ -7,11 +7,18 @@ import fr.d2factory.libraryapp.member.Member;
 
 public class CityLibrary implements Library {
     private BookRepository bookRepository;
+    private String name;
+
+    public CityLibrary(BookRepository bookRepository, String name) {
+        this.bookRepository = bookRepository;
+        this.name = name;
+    }
 
     public Book borrowBook(long isbnCode, Member member) {
         return null;
     }
 
+    @Override
     public void returnBook(Book book, Member member) {
 
     }
