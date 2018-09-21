@@ -1,7 +1,8 @@
 package fr.d2factory.libraryapp.library;
 
+import fr.d2factory.libraryapp.book.Book;
 import fr.d2factory.libraryapp.book.BookRepository;
-import fr.d2factory.libraryapp.library.impl.CityLibrary;
+import fr.d2factory.libraryapp.book.ISBN;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,10 +12,17 @@ public class LibraryTest {
 
     @Before
     public void setup(){
-        bookRepository = new BookRepository();
-        library = new CityLibrary(bookRepository, "La bibliothèque de Paris");
+        //TODO instantiate the library and the repository
 
-        //TODO add books
+        //TODO add some test books
+        Book harryPotter = new Book("Harry Potter", "J.K. Rowling");
+        ISBN harryPotterISBN = new ISBN(1245678462, 21);
+
+        Book aroundTheWorld = new Book("Around the world in 80 days", "Jules Verne");
+        ISBN aroundTheWorldISBN = new ISBN(789564312, 37);
+
+        Book catch22 = new Book("Catch 22", "Joseph Heller");
+        ISBN catch22ISBN = new ISBN(757541978, 84);
     }
 
     @Test
