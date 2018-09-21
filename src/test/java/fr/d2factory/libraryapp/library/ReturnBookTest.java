@@ -1,4 +1,4 @@
-package fr.d2factory.library;
+package fr.d2factory.libraryapp.library;
 
 import org.junit.Test;
 

@@ -1,8 +1,8 @@
-package fr.d2factory.library;
+package fr.d2factory.libraryapp.library;
 
 import org.junit.Test;
 
-public class BorrowBookTest {
+public class StudentBorrowBookTest {
     @Test
     public void student_can_borrow_a_book_if_book_is_present(){
 
