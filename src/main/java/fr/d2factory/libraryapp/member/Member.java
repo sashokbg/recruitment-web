@@ -1,6 +1,5 @@
 package fr.d2factory.libraryapp.member;
 
-import fr.d2factory.libraryapp.book.Book;
 import fr.d2factory.libraryapp.library.Library;
 
 /**
@@ -16,16 +15,15 @@ public abstract class Member {
     /**
      * The member should pay their books when they are returned to the library
      *
-     * @param price the price for the borrowed time
+     * @param numberOfDays the number of days they kept the book
      */
-    public abstract void payBook(float price);
+    public abstract void payBook(int numberOfDays);
 
-    void returnBook(Library library, Book book){
-        //TODO call the library and implement the missing logic
-    };
+    public float getWallet() {
+        return wallet;
+    }
 
-    void borrowBook(Library library, long isbn){
-        //TODO call the library and implement the missing logic
-    };
-
+    public void setWallet(float wallet) {
+        this.wallet = wallet;
+    }
 }

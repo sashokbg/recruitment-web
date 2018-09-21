@@ -1,6 +1,8 @@
 package fr.d2factory.libraryapp.book;
 
+import java.time.LocalDate;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -8,5 +10,25 @@ import java.util.Map;
  */
 public class BookRepository {
     private Map<ISBN, Book> availableBooks = new HashMap<>();
-    private Map<ISBN, Book> borrowedBooks = new HashMap<>();
+    private Map<Book, LocalDate> borrowedBooks = new HashMap<>();
+
+    public void addBooks(List<Book> books){
+        for(Book book: books){
+            availableBooks.put(book.isbn, book);
+        }
+    }
+
+    public Book findBook(long isbnCode) {
+        //TODO implement the missing feature
+        return null;
+    }
+
+    public void saveBookBorrow(Book book, LocalDate borrowedAt){
+        //TODO implement the missing feature
+    }
+
+    public LocalDate findBorrowedBookDate(Book book) {
+        //TODO implement the missing feature
+        return null;
+    }
 }
