@@ -13,9 +13,7 @@ public class BookRepository {
     private Map<Book, LocalDate> borrowedBooks = new HashMap<>();
 
     public void addBooks(List<Book> books){
-        for(Book book: books){
-            availableBooks.put(book.isbn, book);
-        }
+        //TODO implement the missing feature
     }
 
     public Book findBook(long isbnCode) {
