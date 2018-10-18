@@ -1,4 +1,4 @@
-# Exercice de Recruitment Java
+# Exercice de recrutement Java
 
 L'exercice suivant a pour objectif de mettre à l'épreuve vos compétences de conception et de résolution
 de problèmes dans un cas concret.
