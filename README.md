@@ -1,6 +1,6 @@
 # Java Recruitment Exercise
 
-This Java exercises aims at your conceptional and problem solving skills in a real world
+This Java exercise aims at your conceptional and problem solving skills in a real world
 problem.
 
 The goal of the exercise is to develop an application (java8 or greater) that manages some aspects
@@ -22,7 +22,7 @@ of a fictional library as detailed in the Business Logic bellow.
     who have 15 days of free period for each book.
     
     If a student, regardless of what year they are in, keeps a book
-    for more than 30 days they are obliged to pay a higher tarif of
+    for more than 30 days they are obliged to pay a higher tariff of
     15 cents (0.15 eu) for each day after the initial 30 days and 
     they are considered to be "late".
     
@@ -73,7 +73,7 @@ You may :
 
 * Alter the existing code, but please follow the proposed code structure
 * Add new code and features at your will
-* Add more test cases where it seem logical to you
+* Add more test cases where it seems logical to you
 * Use design patterns to solve different problems
 
 Happy Coding :) !
