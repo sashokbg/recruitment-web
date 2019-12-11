@@ -17,14 +17,12 @@ of a fictional library as detailed in the Business Logic bellow.
     
     Pricing rules:
     
-    Students are charged 10 cents a day (0.10 eu) for the first 30 days.
+    Students are charged 10 cents a day (0.10 eu).
     Exception to that rule are students who are in their first year,
     who have 15 days of free period for each book.
     
     If a student, regardless of what year they are in, keeps a book
-    for more than 30 days they are obliged to pay a higher tariff of
-    15 cents (0.15 eu) for each day after the initial 30 days and 
-    they are considered to be "late".
+    for more than 30 days they are considered to be "late".
     
     Residents are allowed to borrow books for a period of 60 days and are
     charged 10 cents a day (0.10 eu) for each day they keep the book
@@ -32,8 +30,8 @@ of a fictional library as detailed in the Business Logic bellow.
     to pay 20 cents (0.20 eu) for each day after the initial 60 days and
     they are considered to be "late".
     
-    If a member is late with their books they cannot borrow any new books before
-    returning the previous ones. 
+    If a member (student or resident) is late with their books they cannot 
+    borrow any new books before returning the previous ones. 
 ```
 
 ### Requirements
