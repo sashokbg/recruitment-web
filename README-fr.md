@@ -23,9 +23,8 @@ ci-dessous:
     Seules exceptions sont les étudiants en première année qui bénéficient d'une période
     gratuite de 15 jours pour chaque livre emprunté.
 
-    Au-delà des premiers 30 jours on considère l'étudiant "en retard"
-    et on applique un tarif majoré de 15 centimes par jour (0.15 eu).
-    Cette règle s'applique également aux étudiants en première année.
+    Si un étudiant garde un livre au-delà des premiers 30 jours on considère l'étudiant 
+    "en retard".
 
     Le tarif riverain est de 10 centimes par jour (0.10 eu) pour les 60 premiers jours.
     Au-delà de cette période on considère le riverain "en retard" et le tarif est majoré de
