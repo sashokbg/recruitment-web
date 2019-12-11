@@ -17,7 +17,7 @@ of a fictional library as detailed in the Business Logic bellow.
     
     Pricing rules:
     
-    Students are charged 10 cents a day (0.10 eu) for the first 30 days.
+    Students are charged 10 cents a day (0.10 eu).
     Exception to that rule are students who are in their first year,
     who have 15 days of free period for each book.
     

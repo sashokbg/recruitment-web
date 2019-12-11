@@ -8,9 +8,5 @@ public class Book {
     String author;
     ISBN isbn;
 
-    public Book(String title, String author, ISBN isbn) {
-        this.title = title;
-        this.author = author;
-        this.isbn = isbn;
-    }
+    public Book() {}
 }

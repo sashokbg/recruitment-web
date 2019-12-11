@@ -19,7 +19,7 @@ ci-dessous:
 
     Tarifs et délais d'emprunt d'un livre:
 
-    Le tarif étudiant est de 10 centimes par jour (0.10 eu) pour les 30 premiers jours.
+    Le tarif étudiant est de 10 centimes par jour (0.10 eu).
     Seules exceptions sont les étudiants en première année qui bénéficient d'une période
     gratuite de 15 jours pour chaque livre emprunté.
 
@@ -27,7 +27,7 @@ ci-dessous:
     "en retard".
 
     Le tarif riverain est de 10 centimes par jour (0.10 eu) pour les 60 premiers jours.
-    Au-delà de cette période on considère le riverain "en retard" et le tarif est majoré de
+    Au-delà de cette période on considère le riverain "en retard" et le tarif est majoré à
     20 centimes par jour (0.20 eu).
 
     Si un adhérent (riverain ou étudiant) est en retard, il ne peut plus emprunter
