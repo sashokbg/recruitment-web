@@ -1,0 +1,17 @@
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\LivreEmpruntés.csproj.AssemblyReference.cache
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\LivreEmpruntés.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\LivreEmpruntés.AssemblyInfoInputs.cache
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\LivreEmpruntés.AssemblyInfo.cs
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\LivreEmpruntés.csproj.CoreCompileInputs.cache
+C:\Users\21629\source\repos\LivreEmpruntés\bin\Debug\net6.0\LivreEmpruntés.exe
+C:\Users\21629\source\repos\LivreEmpruntés\bin\Debug\net6.0\LivreEmpruntés.deps.json
+C:\Users\21629\source\repos\LivreEmpruntés\bin\Debug\net6.0\LivreEmpruntés.runtimeconfig.json
+C:\Users\21629\source\repos\LivreEmpruntés\bin\Debug\net6.0\LivreEmpruntés.dll
+C:\Users\21629\source\repos\LivreEmpruntés\bin\Debug\net6.0\LivreEmpruntés.pdb
+C:\Users\21629\source\repos\LivreEmpruntés\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\LivreEmpruntés.csproj.CopyComplete
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\LivreEmpruntés.dll
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\refint\LivreEmpruntés.dll
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\LivreEmpruntés.pdb
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\LivreEmpruntés.genruntimeconfig.cache
+C:\Users\21629\source\repos\LivreEmpruntés\obj\Debug\net6.0\ref\LivreEmpruntés.dll
