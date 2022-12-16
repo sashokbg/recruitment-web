@@ -1,4 +1,4 @@
-﻿namespace fr.d2factory.libraryapp.member
+﻿namespace com.proxym.libraryapp.member
 { 
 
 	/// <summary>

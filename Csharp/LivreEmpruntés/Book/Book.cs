@@ -1,21 +1,15 @@
-﻿namespace fr.d2factory.libraryapp.book
+﻿ namespace com.proxym.libraryapp.book
 {
-	/// <summary>
-	/// A simple representation of a book
-	/// </summary>
-	public class Book
-	{
-        public Book(string title, string author, Isbn isbn)
-        {
-            Title = title;
-            Author = author;
-            Isbn = isbn;
-        }
+    /// <summary>
+    /// A simple representation of a book
+    /// </summary>
+    public class Book
+    {
+        public string Title;
+        public string Author;
+        public Isbn Isbn;
+        public DateOnly borrowedAt; 
 
-        public string Title { get; protected set; } 
-        public string Author { get; protected set; } 
-        public Isbn Isbn { get; protected set; } 
-         
-	}
+    }
 
 }

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wWR5br0N1XQ2sJAzdx+rCFglbuBy8D5LRoGH/b4q0pmuxDv4MIzmBK4ww0xKVF7ko8dvZmkTEmru4eNxe6HLJg==",
+  "dgSpecHash": "9xNyocM63rXJ8s8Q1owqIQm775xbQfLbRU813x8Md1rM5xqKWhTivuk5Ap+WJQiHCFF/+dIZ1m/P/SCS4hxGIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\21629\\source\\repos\\LivreEmpruntés\\LivreEmpruntés.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\21629\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\21629\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\21629\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\21629\\Desktop\\C#\\Csharp\\LivreEmpruntés\\LivreEmpruntés.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

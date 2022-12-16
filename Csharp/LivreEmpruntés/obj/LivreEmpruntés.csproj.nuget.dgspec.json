@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\21629\\source\\repos\\LivreEmpruntés\\LivreEmpruntés.csproj": {}
+    "C:\\Users\\21629\\Desktop\\C#\\Csharp\\LivreEmpruntés\\LivreEmpruntés.csproj": {}
   },
   "projects": {
-    "C:\\Users\\21629\\source\\repos\\LivreEmpruntés\\LivreEmpruntés.csproj": {
+    "C:\\Users\\21629\\Desktop\\C#\\Csharp\\LivreEmpruntés\\LivreEmpruntés.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\21629\\source\\repos\\LivreEmpruntés\\LivreEmpruntés.csproj",
+        "projectUniqueName": "C:\\Users\\21629\\Desktop\\C#\\Csharp\\LivreEmpruntés\\LivreEmpruntés.csproj",
         "projectName": "LivreEmpruntés",
-        "projectPath": "C:\\Users\\21629\\source\\repos\\LivreEmpruntés\\LivreEmpruntés.csproj",
+        "projectPath": "C:\\Users\\21629\\Desktop\\C#\\Csharp\\LivreEmpruntés\\LivreEmpruntés.csproj",
         "packagesPath": "C:\\Users\\21629\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\21629\\source\\repos\\LivreEmpruntés\\obj\\",
+        "outputPath": "C:\\Users\\21629\\Desktop\\C#\\Csharp\\LivreEmpruntés\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\21629\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
