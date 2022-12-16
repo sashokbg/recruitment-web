@@ -1,7 +1,10 @@
 # Compiled class file
+*.vs
 *.class
 .idea
 target
+bin
+obj 
 
 # Log file
 *.log
