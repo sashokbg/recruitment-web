@@ -53,6 +53,16 @@ https://github.com/DevoteamDigitalFactory/recruitment-web
 
 Sinon vous pouvez également nous la communiquer par e-mail.
 
+### Bonus
+Si vous avez bien avancé avec l'exercise vous pouvez également implémenter une arcitecture modulaire où la logique métier de la librairie se trouve dans un module appelé "library-domain" et le repository de persistance dans un autre appelé "library-infra"
+
+Vous allez désormais avoir besoin d'un starter qui démarre l'application et d'un framework d'injection des dépendances. Example Spring Boot ou .NET Dependency Injection
+
+```
+root/
+    library-domain
+    library-infra
+```
 
 ### Hints
 

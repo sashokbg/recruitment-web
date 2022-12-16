@@ -1,4 +1,4 @@
-package fr.d2factory.libraryapp.book;
+package com.proxym.libraryapp.book;
 
 public class ISBN {
     long isbnCode;

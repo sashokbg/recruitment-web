@@ -51,16 +51,26 @@ Ideally you should fork the repository on github and create a branch with your n
 
 If you do not wish to use github, you can send your solution to our HR team via email
  
+### Bonus
+If you have finished the main exercise you can also implement a module architecture where the main logic is in module called "library-domain" and the repository is in another module called "library-infra".
+
+You will also need something to run the code and provide dependency injection (Spring Boot for example, .NET Dependency Injection)
+
+```
+root/
+    library-domain
+    library-infra
+```
 
 ### Hints
 
 You should :
 
 * Implement the required business logic
-* Implement the unit tests in src/test/LibraryTest.java
-* Fix the code where it seems badly written or not respecting java conventions
-* Use modern Java APIs where possible
-* Avoid using heavy frameworks like Spring
+* Implement the unit tests in src/test/LibraryTest.java (TestProjectBook/UnitTestProjectBook.cs project if using .NET)
+* Fix the code where it seems badly written or not respecting the programming language conventions
+* Use modern APIs for your programming language where possible
+* Avoid using heavy frameworks like Spring, unless you decide to implement the bonus part
 * Be careful for pitfalls
 * Do not bother implementing any logic for ISBN codes - they are completely fictional in our exercise
 and serve only as identifiers for books

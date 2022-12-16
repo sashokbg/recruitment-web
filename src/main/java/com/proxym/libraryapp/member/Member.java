@@ -1,6 +1,6 @@
-package fr.d2factory.libraryapp.member;
+package com.proxym.libraryapp.member;
 
-import fr.d2factory.libraryapp.library.Library;
+import com.proxym.libraryapp.library.Library;
 
 /**
  * A member is a person who can borrow and return books to a {@link Library}
