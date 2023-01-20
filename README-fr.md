@@ -49,7 +49,7 @@ Votre solution devrait compiler proprement et tous les tests unitaires dans la c
 
 De préférence vous pouvez faire un fork du repository GitHub et nous envoyer le lien de votre repository.
 
-https://github.com/DevoteamDigitalFactory/recruitment-web
+https://github.com/sashokbg/recruitment-web.git
 
 Sinon vous pouvez également nous la communiquer par e-mail.
 
