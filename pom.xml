@@ -1,110 +1,131 @@
-<project>
-  <artifactId>townsville-library</artifactId>
-  <groupId>fr.d2factory</groupId>
-  <modelVersion>4.0.0</modelVersion>
-  <name>Townsville Library</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-antrun-plugin</artifactId>
-        <executions>
-          <execution>
-            <phase>compile</phase>
-            <goals>
-              <goal>run</goal>
-            </goals>
-            <configuration>
-              <tasks>
-                <echo>================================================================================================</echo>
-                <echo>================================================================================================</echo>
-                <echo>==  _____                 _    _   _            _____                 _                       ==</echo>
-                <echo>==  |  __ \              | |  | | | |           |  __ \              | |                      ==</echo>
-                <echo>==  | |__) |___  __ _  __| |  | |_| |__   ___   | |__) |___  __ _  __| |_ __ ___   ___        ==</echo>
-                <echo>==  |  _  // _ \/ _` |/ _` |  | __| '_ \ / _ \  |  _  // _ \/ _` |/ _` | '_ ` _ \ / _ \       ==</echo>
-                <echo>==  | | \ \  __/ (_| | (_| |  | |_| | | |  __/  | | \ \  __/ (_| | (_| | | | | | |  __/       ==</echo>
-                <echo>==  |_|  \_\___|\__,_|\__,_|   \__|_| |_|\___|  |_|  \_\___|\__,_|\__,_|_| |_| |_|\___|       ==</echo>
-                <echo>================================================================================================</echo>
-                <echo>================================================================================================</echo>
-              </tasks>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
-        </plugin>
-        <!-- JUnit 5 requires Surefire version 2.22.1 or higher -->
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.1</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
+    <artifactId>townsville-library</artifactId>
+    <groupId>fr.d2factory</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Townsville Library</name>
 
-  <dependencies>
-    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>1.18.30</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.9.2</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.mockito</groupId>
-      <artifactId>mockito-core</artifactId>
-      <version>5.8.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.5.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.5.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>2.10.2</version>
-    </dependency>
-  </dependencies>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <tasks>
+                                <echo>
+                                    ================================================================================================
+                                </echo>
+                                <echo>
+                                    ================================================================================================
+                                </echo>
+                                <echo>== _____ _ _ _ _____ _ ==</echo>
+                                <echo>== | __ \ | | | | | | | __ \ | | ==</echo>
+                                <echo>== | |__) |___ __ _ __| | | |_| |__ ___ | |__) |___ __ _ __| |_ __ ___ ___ ==
+                                </echo>
+                                <echo>== | _ // _ \/ _` |/ _` | | __| '_ \ / _ \ | _ // _ \/ _` |/ _` | '_ ` _ \ / _ \
+                                    ==
+                                </echo>
+                                <echo>== | | \ \ __/ (_| | (_| | | |_| | | | __/ | | \ \ __/ (_| | (_| | | | | | | __/
+                                    ==
+                                </echo>
+                                <echo>== |_| \_\___|\__,_|\__,_| \__|_| |_|\___| |_| \_\___|\__,_|\__,_|_| |_| |_|\___|
+                                    ==
+                                </echo>
+                                <echo>
+                                    ================================================================================================
+                                </echo>
+                                <echo>
+                                    ================================================================================================
+                                </echo>
+                            </tasks>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.0</version>
+                </plugin>
+                <!-- JUnit 5 requires Surefire version 2.22.1 or higher -->
+                <plugin>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.22.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.8.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.5.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.5.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.10.2</version>
+        </dependency>
+    </dependencies>
 
 </project>
